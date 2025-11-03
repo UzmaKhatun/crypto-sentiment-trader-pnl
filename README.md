@@ -45,34 +45,26 @@ The analysis pipeline is broken down into modular Python scripts, making the pro
 |visualizations.py|The Storyteller. Generates all the charts and graphs used in the final report, visually demonstrating the relationship between market sentiment and trader profitability over time.|
 |analysis_report.pdf|The Final Report. A comprehensive write-up of the entire project, including methodology, findings, and actionable trading strategy recommendations.|
 
+---
 
-📈 Key Findings
+## 📈 Key Findings
 
 The analysis strongly supports a contrarian approach to trading based on the Fear & Greed Index:
 
-•
-Highest Profits During Fear: The days where the aggregate trader base saw the highest mean profits occurred during periods classified as Extreme Fear.
+•Highest Profits During Fear: The days where the aggregate trader base saw the highest mean profits occurred during periods classified as Extreme Fear.
 
-•
-Greed Hurts Tomorrow's PnL: The most statistically significant finding was that a high level of Greed on one day is associated with a lower total PnL for traders on the following day. This suggests a collective behavioral mistake when the market gets too excited.
+•Greed Hurts Tomorrow's PnL: The most statistically significant finding was that a high level of Greed on one day is associated with a lower total PnL for traders on the following day. This suggests a collective behavioral mistake when the market gets too excited.
 
-💡 Strategy Recommendation
+---
+## 💡 Strategy Recommendation
 
 The data suggests using the FGI as a behavioral filter for trading decisions:
 
-Sentiment State
-FGI Range
-Recommended Action
-Extreme Greed
-FGI > 75
-Risk-Off / Short Bias. Be cautious, take profits, or look for short opportunities, especially the day after this reading.
-Extreme Fear
-FGI < 25
-Risk-On / Long Bias. Look for opportunities to enter long positions, as these periods historically precede the most profitable days.
+|Sentiment State|FGI Range|Recommended Action|
+|-----|-------|--------|
+|Extreme Greed|FGI > 75|Risk-Off / Short Bias. Be cautious, take profits, or look for short opportunities, especially the day after this reading.|
+|Extreme Fear|FGI < 25|Risk-On / Long Bias. Look for opportunities to enter long positions, as these periods historically precede the most profitable days.|
 
-
-
-
+---
 
 This project was completed as part of a data science assignment. All code and analysis are original.
-
