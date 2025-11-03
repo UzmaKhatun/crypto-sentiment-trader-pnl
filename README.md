@@ -26,9 +26,9 @@ Key Insight: We found a statistically significant inverse relationship, suggesti
 
 The analysis is built upon two rich datasets:
 
-1.Bitcoin Fear & Greed Index (FGI): Provides a daily snapshot of market emotion, ranging from Extreme Fear (0) to Extreme Greed (100).
+1. Bitcoin Fear & Greed Index (FGI): Provides a daily snapshot of market emotion, ranging from Extreme Fear (0) to Extreme Greed (100).
 
-2.Hyperliquid Historical Trade Data: Contains millions of individual trade records, including execution price, size, side (Buy/Sell), and the crucial closed_pnl (profit and loss) for each transaction.
+2. Hyperliquid Historical Trade Data: Contains millions of individual trade records, including execution price, size, side (Buy/Sell), and the crucial closed_pnl (profit and loss) for each transaction.
 
 ---
 
@@ -51,9 +51,8 @@ The analysis pipeline is broken down into modular Python scripts, making the pro
 
 The analysis strongly supports a contrarian approach to trading based on the Fear & Greed Index:
 
-•Highest Profits During Fear: The days where the aggregate trader base saw the highest mean profits occurred during periods classified as Extreme Fear.
-
-•Greed Hurts Tomorrow's PnL: The most statistically significant finding was that a high level of Greed on one day is associated with a lower total PnL for traders on the following day. This suggests a collective behavioral mistake when the market gets too excited.
+- Highest Profits During Fear: The days where the aggregate trader base saw the highest mean profits occurred during periods classified as Extreme Fear.
+- Greed Hurts Tomorrow's PnL: The most statistically significant finding was that a high level of Greed on one day is associated with a lower total PnL for traders on the following day. This suggests a collective behavioral mistake when the market gets too excited.
 
 ---
 ## 💡 Strategy Recommendation
