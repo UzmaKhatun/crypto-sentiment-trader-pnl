@@ -36,8 +36,8 @@ The analysis is built upon two rich datasets:
 
 The analysis pipeline is broken down into modular Python scripts, making the process clear and repeatable.
 
-|----------------|
 |File Name|What it Does (In Simple Terms)|
+|--------|-------------|
 |data_prep.py|The Initial Clean-Up. Loads the raw CSV files, identifies the correct column headers, and fixes messy data formats (like converting text dates into proper date objects).|
 |data_processing.py|The Data Aggregator. Takes the cleaned trade data and groups it by day. It calculates the Total Daily PnL and other performance metrics, then merges this summary with the daily Fear & Greed Index.|
 |eda_and_feature_engineering.py|The Insight Builder. Explores the merged data (EDA) to understand distributions and trends. Crucially, it creates new features like the previous day's sentiment (lag_index_value) to test for delayed effects.|
